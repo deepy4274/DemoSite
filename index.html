@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio Website</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="header">
+        <h4><span>G</span>reeting !</h4>
+        <nav>
+            <ul type="none">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Teams</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <section class="main">
+            <h4 class="left">Hii, My name is <span class="intro">Dipesh Kumar Yadav</span><br>
+                <span id="element"></span>
+            </h4>
+            <img class="right" src="bg.png" height="350px">
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Graphic Designer', 'SEO Expert'],
+          typeSpeed: 100,
+        });
+      </script>
+</body>
+
+</html>
